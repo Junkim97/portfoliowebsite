@@ -29,6 +29,10 @@
   align-items: center;
 }
 
+.fa-laptop-code {
+  padding-right: 10px;
+}
+
 .fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;

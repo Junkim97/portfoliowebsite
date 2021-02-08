@@ -33,7 +33,7 @@ function NavBar() {
         <div className="navbar-container">
           
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            SWAG <i className='fab fa-typo3'/>
+          <i className='fas fa-laptop-code'/> Jun Kim 
           </Link>
           
           <div className='menu-icon' onClick={handleClick}>

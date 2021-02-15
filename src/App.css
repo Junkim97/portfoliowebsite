@@ -6,7 +6,6 @@
 }
 
 .home,
-.services,
 .products,
 .sign-up {
   display: flex;
@@ -16,15 +15,25 @@
   font-size: 3rem;
 }
 
-.services {
+.aboutContainer {
   background-image: url("images/img-2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
 }
 
+.aboutContainer h1 {
+  font-size: 100px;
+  color: #456;
+}
+.aboutContainer p {
+  font-size: 25px;
+  color: #456;
+  text-align: center;
+}
 .products {
   background-image: url("images/img-1.jpg");
   background-position: center;

@@ -26,13 +26,23 @@
 }
 
 .aboutContainer h1 {
-  font-size: 100px;
-  color: #456;
+  font-size: 75px;
+  color: #fff;
 }
-.aboutContainer p {
+
+.textWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.textWrapper p {
   font-size: 25px;
-  color: #456;
-  text-align: center;
+  color: #fff;
+  text-align: left;
+}
+
+.textWrapper img {
+  margin-right: 5px;
 }
 .products {
   background-image: url("images/img-1.jpg");

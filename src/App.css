@@ -30,6 +30,13 @@
   color: #fff;
 }
 
+.aboutContainer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
 .textWrapper {
   display: flex;
   justify-content: center;
@@ -38,12 +45,35 @@
 .textWrapper p {
   font-size: 25px;
   color: #fff;
-  text-align: left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.textWrapper img {
-  margin-right: 5px;
+.skillsWrapper {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
+
+.skillsWrapper h2 {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.skillIcons {
+  display: flex;
+  color: #fff;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  width: 300px;
+  font-size: 25px;
+}
+
 .products {
   background-image: url("images/img-1.jpg");
   background-position: center;

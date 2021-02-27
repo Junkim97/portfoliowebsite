@@ -10,12 +10,6 @@ function HeroSection() {
       <h1>Hi, I'm Jun, </h1>
       <p>4th year computer science student and aspiring software engineer.</p>
 
-      <div className='hero-btns'>
-        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>GET STARTED</Button>
-
-        <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>WATCH TRAILER <i className='far fa-play-circle'/></Button>
-      
-      </div>
     </div>
   )
 }

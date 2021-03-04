@@ -104,25 +104,42 @@
   width: 50vw;
 }
 
+.contact-form input[type="text"],
+input[type="email"] {
+  display: block;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  border: 1px solid #888;
+  font-size: 14px;
+}
+
 label {
   color: #fff;
 }
 
-input[type="text"] {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+.contact-form textarea {
+  display: block;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  border: 1px solid #888;
+  font-size: 14px;
+  height: auto;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  margin-top: 8px;
 }
 
 input[type="submit"]:hover {
+  background: #fff;
+  color: #242424;
+  transition: all 0.3s ease-out;
   cursor: pointer;
-}
-
-input[type="text"]:focus {
-  border: 1px solid red;
 }

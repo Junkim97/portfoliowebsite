@@ -26,7 +26,7 @@ export default function SignUp() {
       <label>Email</label>
       <input type="email" name="email" />
       <label>Message</label>
-      <textarea name="message" />
+      <textarea rows='5' name="message" />
       <input type="submit" value="Send" />
     </form>
     </div>

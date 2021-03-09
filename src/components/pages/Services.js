@@ -19,6 +19,7 @@ function Services () {
            <i class="fab fa-js"></i>
            <i class="fab fa-react"></i>
            <i class="fab fa-python"></i>
+           <i class="fab fa-git-alt"></i>
          </div>
         </div>
     </div>

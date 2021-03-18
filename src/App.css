@@ -88,6 +88,11 @@
   font-size: 75px;
 }
 
+.project1 {
+  text-align: center;
+  color: #fff;
+}
+
 .sign-upWrapper {
   background-image: url("images/img-3.jpg");
   background-position: center;

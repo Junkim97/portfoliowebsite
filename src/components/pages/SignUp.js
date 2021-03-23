@@ -21,6 +21,7 @@ export default function SignUp() {
     <div className='sign-upWrapper'>
     <h1>Contact</h1>
     <box className='contactBox'>
+      <p>Please fill out the form below to get in contact with me</p>
     <form className="contact-form" onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="name" />

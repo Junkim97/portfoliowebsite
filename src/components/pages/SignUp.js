@@ -20,6 +20,7 @@ export default function SignUp() {
   return (
     <div className='sign-upWrapper'>
     <h1>Contact</h1>
+    <box className='contactBox'>
     <form className="contact-form" onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="name" />
@@ -29,6 +30,7 @@ export default function SignUp() {
       <textarea rows='5' name="message" />
       <input type="submit" value="Send" />
     </form>
+    </box>
     </div>
   )
 }

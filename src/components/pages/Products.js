@@ -15,6 +15,9 @@ export default function Products() {
       <div className='project2'>
         <h2>Portfolio Website</h2>
         <p>Created this website as personal portfolio website to show off my coding projects. Used custom styled react components, html, css, and javascript.</p>
+        <a class='social-icon-link github' href='https://github.com/Junkim97/portfoliowebsite' target='_blank' aria-label='github'>
+          <i className='fab fa-github'></i>
+        </a>
       </div>
 
 
